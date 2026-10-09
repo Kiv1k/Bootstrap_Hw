@@ -1,0 +1,13 @@
+
+.dashboard-card {
+    transition: transform 0.2s ease, box-shadow 0.2s ease, outline-color 0.2s ease;
+}
+
+@media (hover: hover) {
+    .dashboard-card:hover {
+        transform: translateY(-4px);
+        box-shadow: 0 0.75rem 1.75rem rgba(50, 90, 180, 0.2) !important;
+        outline: 2px solid rgba(79, 120, 255, 0.28);
+        outline-offset: 2px;
+    }
+}
